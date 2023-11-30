@@ -1,0 +1,29 @@
+package ADO7PI;
+
+import java.util.Scanner;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		
+		System.out.println("informe a 1° nota:");
+		int nota1 = ler.nextInt();
+		for(int contador = nota1; contador <1 || contador>10;contador++) {
+			System.out.println("Nota inválida. Ela deve estar entre 0 e 10");
+		}
+
+		System.out.println("informe a 2° nota:");
+		int nota2 = ler.nextInt();
+		
+		System.out.println("informe a 3° nota:");
+		int nota3 = ler.nextInt();
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package ADO6PI;
+
+import java.util.Scanner;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		 System.out.print("Digite a frase: ");
+		    String frase = ler.nextLine();
+		    int letra = 0;
+
+		    while( letra < frase.length()) {
+		        char caractere = frase.charAt(letra);
+		        if (caractere == ' ') {
+		            System.out.println("Espaço");
+		        } else if (caractere.substring(letra ,' '){
+		            System.out.println("Letra " + (i + 1) + " = " + caractere);
+		        }
+		      letra++;
+		    }
+		
+		
+		
+		
+
+	}
+
+}

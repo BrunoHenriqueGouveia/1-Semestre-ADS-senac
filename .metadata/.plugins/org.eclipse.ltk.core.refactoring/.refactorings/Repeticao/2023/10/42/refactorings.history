@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;ADO7PI.Ex2.main(...).ler&apos; in &apos;ADO7PI.Ex2.main(...)&apos;&#x0D;&#x0A;- Original project: &apos;Repeticao&apos;&#x0D;&#x0A;- Original element: &apos;ADO7PI.Ex2.main(...).ler&apos;" description="Inline local variable &apos;ler&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;ADO7PI{Ex2.java" selection="123 28" stamp="1697655978366" version="1.0"/>
+</session>

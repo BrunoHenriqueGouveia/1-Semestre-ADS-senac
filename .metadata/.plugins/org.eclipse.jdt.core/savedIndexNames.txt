@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+D:\bruno tads0\.metadata\.plugins\org.eclipse.jdt.core
+905365349.index
+1865797976.index
+2438605453.index
+1229536591.index
+2983025313.index
+2125722497.index
+3681964867.index
+2712209685.index

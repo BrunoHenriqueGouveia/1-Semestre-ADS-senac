@@ -1,0 +1,64 @@
+package Decisao;
+
+import java.util.Scanner;
+
+public class Pontoextra {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Ola, porfessor informe o valor que voçe ganha por aula:");
+		double ganhoAula = ler.nextDouble();
+		
+		System.out.println("informe quantas aulas por semana:");
+		double aulasSemana = ler.nextDouble();
+		
+		double salarioBase = (aulasSemana * 4.5) * ganhoAula;
+		double horaAtividade = (salarioBase * 5) / 100;
+		double  dsr = (salarioBase + horaAtividade) / 6;
+		double salarioBruto = salarioBase + horaAtividade + dsr;
+		double inss ;
+		double irrf;
+		if (salarioBruto < 1320) {
+			   inss = (salarioBruto * 7.5) /100;
+		}
+		else if (salarioBruto >= 1320 && salarioBruto < 2571.29) {
+			inss = (salarioBase * 9) / 100;
+		}
+		else if (salarioBruto >= 2571.29 && salarioBruto < 3856.94) {
+			inss = (salarioBase * 12) / 100;
+		}
+		else if (salarioBruto >= 3856.93 && salarioBruto < 7507.49) {
+			inss = (salarioBruto * 14) / 100;
+		}
+		else {
+			inss = 877.24;
+		}
+		
+		System.out.println("informe quantos dependendes legais voce tem ");
+		int dependentes = ler.nextInt();
+		
+		System.out.println("informe valor de pensao alimenticia");
+		double pensao = ler.nextDouble();
+		
+		if (salario)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

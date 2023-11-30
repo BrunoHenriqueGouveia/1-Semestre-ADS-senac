@@ -1,0 +1,25 @@
+package ADO6PI;
+
+import java.util.Scanner;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	
+	int voltas = 1;
+	
+	while (voltas <= 5) {
+		System.out.println(voltas);
+		voltas++;
+	}
+	
+	
+	
+	
+	
+	
+
+	}
+
+}
